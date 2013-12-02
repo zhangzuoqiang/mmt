@@ -47,7 +47,7 @@
     <button type="button" class="save btn btn-primary"><span class="glyphicon glyphicon-ok"></span> 保 存</button>
 </div>
 <script src="#{getContextPath}bootstrap/plugins/select/js/bootstrap-select.min.js"></script>
-<script>
+<script type="text/javascript">
 $('select').selectpicker();
 #if($result.menu.supmenucode != 0)
 $('.selectpicker').selectpicker('val', '$!result.menu.supmenucode');
